@@ -18,7 +18,6 @@ const RegionView = () => {
           <RegionItems>
             <RegionListCategory>
               <input type="checkbox" id="city" />
-              {/* eslint-disable-next-line jsx-a11y/label-has-associated-control */}
               <RegionListCategoryLabel htmlFor="city">도시</RegionListCategoryLabel>
               <FontAwesomeIcon icon={faChevronDown} />
               <RegionListItems>
