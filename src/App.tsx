@@ -13,6 +13,9 @@ const AppContainer = styled.div`
   width: 1180px;
   margin: 0 auto;
   background: skyblue;
+  @media (max-width: 1024px) {
+    width: 100%;
+  }
 `;
 
 const Wrapper = styled.div`

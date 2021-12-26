@@ -1,19 +1,21 @@
 import React from 'react';
 import NavigationContainer from '@components/navigation/navigation.container';
 import RegionContainer from '@components/region/region.container';
-import SidebarContainer from '@components/sidebar/sidebar.container';
+import SidenavContainer from '@components/sidenav/sidenav.container';
 import MapContainer from '@components/map/map.container';
-import { SidebarMapWrapper } from './index.tyle';
+import BottomnavContainer from '@components/bottomnav/bottomnav.container';
+import { MapWrapper } from './index.style';
 
 const Main = () => {
   return (
     <section>
       <NavigationContainer />
       <RegionContainer />
-      <SidebarMapWrapper>
-        <SidebarContainer />
+      <MapWrapper>
+        <SidenavContainer />
         <MapContainer />
-      </SidebarMapWrapper>
+        <BottomnavContainer />
+      </MapWrapper>
     </section>
   );
 };

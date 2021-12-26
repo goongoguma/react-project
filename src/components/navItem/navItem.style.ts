@@ -1,37 +1,37 @@
 import styled from 'styled-components';
 
-export const SidebarWrapper = styled.ul`
-  background: cadetblue;
-  flex: 1;
-  padding: 0;
-  margin: 0;
-  overflow: auto;
-`;
-
-export const SidebarItem = styled.li`
+export const NavItem = styled.li`
   list-style: none;
   padding: 10px;
   background: blanchedalmond;
   display: flex;
   align-items: center;
+  @media (max-width: 1024px) {
+    display: block;
+    min-width: 200px;
+    border: 1px solid black;
+  }
 `;
 
-export const SidebarItemImage = styled.div`
+export const NavItemImage = styled.div`
   width: 100px;
   height: 100px;
   background: blueviolet;
+  @media (max-width: 1024px) {
+    display: none;
+  }
 `;
 
-export const SidebarItemText = styled.div`
+export const NavItemText = styled.div`
   padding: 0 10px;
   flex: 1;
 `;
 
-export const SidebarItemTextTitle = styled.p`
+export const NavItemTextTitle = styled.p`
   font-weight: bold;
 `;
 
-export const SidebarItemTextDesc = styled.ul`
+export const NavItemTextDesc = styled.ul`
   font-size: 13px;
   margin: 0;
   padding: 0;
