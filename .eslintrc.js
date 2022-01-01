@@ -5,19 +5,6 @@ module.exports = {
     node: true,
     jest: true,
   },
-  // 플러그인들은 settings를 사용해서 사용되어야 할 규칙들을 공유한다(https://eslint.org/docs/user-guide/configuring/configuration-files#adding-shared-settings)
-  settings: {
-    // eslint-plugin-react
-    react: {
-      version: 'detect',
-    },
-    // eslint-plugin-import
-    'import/resolver': {
-      node: {
-        extensions: ['.js', '.jsx', '.ts', '.tsx'],
-      },
-    },
-  },
   extends: [
     'eslint:recommended',
     'plugin:react/recommended',
@@ -40,7 +27,28 @@ module.exports = {
     sourceType: 'module',
     ecmaVersion: 13,
   },
+
   plugins: ['@typescript-eslint', 'react', 'import', 'prettier'],
+  // 플러그인들은 settings를 사용해서 사용되어야 할 규칙들을 공유한다(https://eslint.org/docs/user-guide/configuring/configuration-files#adding-shared-settings)
+  settings: {
+    // eslint-plugin-import
+    'import/resolver': {
+      typescript: {
+        project: 'tsconfig.json',
+      },
+      node: {
+        extensions: ['.js', '.jsx', '.ts', '.tsx'],
+      },
+    },
+    'import/parsers': {
+      '@typescript-eslint/parser': ['.ts', '.tsx'],
+    },
+    // eslint-plugin-react
+    react: {
+      version: 'detect',
+    },
+  },
+  ignorePatterns: ['build/', 'node_modules/', '.pnp.cjs', '.yarn/'],
   rules: {
     // 콘솔 로그
     'no-console': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
