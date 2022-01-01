@@ -5891,6 +5891,7 @@ __metadata:
     react-router-dom: ^6.0.2
     style-loader: ^3.3.1
     styled-components: ^5.3.3
+    styled-normalize: ^8.0.7
     ts-loader: ^9.2.6
     typescript: ^4.5.2
     url-loader: ^4.1.1
@@ -7582,6 +7583,15 @@ __metadata:
     react-dom: ">= 16.8.0"
     react-is: ">= 16.8.0"
   checksum: a104341068fc39fa2c73950a34970d832dc7a511fc52b3df12f34e6746031f1f128f53b4d540bf39d9f0da043cf0d91517faf874d2c87de5e385f5c2e7620436
+  languageName: node
+  linkType: hard
+
+"styled-normalize@npm:^8.0.7":
+  version: 8.0.7
+  resolution: "styled-normalize@npm:8.0.7"
+  peerDependencies:
+    styled-components: ^4.0.0 || ^5.0.0
+  checksum: afdb450407ec4dcd41b4806a1193060e128f617fbbb6c14cc8679f9a651b93afc54bd13035c84aec3c298a7ae0084aef4a8a651c082c9bf209843b17cfc73305
   languageName: node
   linkType: hard
 

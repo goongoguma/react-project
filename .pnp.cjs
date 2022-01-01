@@ -68,6 +68,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["react-router-dom", "virtual:d9f8fd649a6bad2b2522c1dc82d0bf4d35a6315f955089c3bf9630d5b510fe28624bd29d391306da6bbfc3ec999e11972e7581f2b9f870eda59adaa3b0a1bc00#npm:6.2.1"],
             ["style-loader", "virtual:d9f8fd649a6bad2b2522c1dc82d0bf4d35a6315f955089c3bf9630d5b510fe28624bd29d391306da6bbfc3ec999e11972e7581f2b9f870eda59adaa3b0a1bc00#npm:3.3.1"],
             ["styled-components", "virtual:d9f8fd649a6bad2b2522c1dc82d0bf4d35a6315f955089c3bf9630d5b510fe28624bd29d391306da6bbfc3ec999e11972e7581f2b9f870eda59adaa3b0a1bc00#npm:5.3.3"],
+            ["styled-normalize", "virtual:d9f8fd649a6bad2b2522c1dc82d0bf4d35a6315f955089c3bf9630d5b510fe28624bd29d391306da6bbfc3ec999e11972e7581f2b9f870eda59adaa3b0a1bc00#npm:8.0.7"],
             ["ts-loader", "virtual:d9f8fd649a6bad2b2522c1dc82d0bf4d35a6315f955089c3bf9630d5b510fe28624bd29d391306da6bbfc3ec999e11972e7581f2b9f870eda59adaa3b0a1bc00#npm:9.2.6"],
             ["typescript", "patch:typescript@npm%3A4.5.4#~builtin<compat/typescript>::version=4.5.4&hash=493e53"],
             ["url-loader", "virtual:d9f8fd649a6bad2b2522c1dc82d0bf4d35a6315f955089c3bf9630d5b510fe28624bd29d391306da6bbfc3ec999e11972e7581f2b9f870eda59adaa3b0a1bc00#npm:4.1.1"],
@@ -7934,6 +7935,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["react-router-dom", "virtual:d9f8fd649a6bad2b2522c1dc82d0bf4d35a6315f955089c3bf9630d5b510fe28624bd29d391306da6bbfc3ec999e11972e7581f2b9f870eda59adaa3b0a1bc00#npm:6.2.1"],
             ["style-loader", "virtual:d9f8fd649a6bad2b2522c1dc82d0bf4d35a6315f955089c3bf9630d5b510fe28624bd29d391306da6bbfc3ec999e11972e7581f2b9f870eda59adaa3b0a1bc00#npm:3.3.1"],
             ["styled-components", "virtual:d9f8fd649a6bad2b2522c1dc82d0bf4d35a6315f955089c3bf9630d5b510fe28624bd29d391306da6bbfc3ec999e11972e7581f2b9f870eda59adaa3b0a1bc00#npm:5.3.3"],
+            ["styled-normalize", "virtual:d9f8fd649a6bad2b2522c1dc82d0bf4d35a6315f955089c3bf9630d5b510fe28624bd29d391306da6bbfc3ec999e11972e7581f2b9f870eda59adaa3b0a1bc00#npm:8.0.7"],
             ["ts-loader", "virtual:d9f8fd649a6bad2b2522c1dc82d0bf4d35a6315f955089c3bf9630d5b510fe28624bd29d391306da6bbfc3ec999e11972e7581f2b9f870eda59adaa3b0a1bc00#npm:9.2.6"],
             ["typescript", "patch:typescript@npm%3A4.5.4#~builtin<compat/typescript>::version=4.5.4&hash=493e53"],
             ["url-loader", "virtual:d9f8fd649a6bad2b2522c1dc82d0bf4d35a6315f955089c3bf9630d5b510fe28624bd29d391306da6bbfc3ec999e11972e7581f2b9f870eda59adaa3b0a1bc00#npm:4.1.1"],
@@ -9932,6 +9934,28 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             "react-dom",
             "react-is",
             "react"
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["styled-normalize", [
+        ["npm:8.0.7", {
+          "packageLocation": "./.yarn/cache/styled-normalize-npm-8.0.7-76e7b6a203-afdb450407.zip/node_modules/styled-normalize/",
+          "packageDependencies": [
+            ["styled-normalize", "npm:8.0.7"]
+          ],
+          "linkType": "SOFT",
+        }],
+        ["virtual:d9f8fd649a6bad2b2522c1dc82d0bf4d35a6315f955089c3bf9630d5b510fe28624bd29d391306da6bbfc3ec999e11972e7581f2b9f870eda59adaa3b0a1bc00#npm:8.0.7", {
+          "packageLocation": "./.yarn/__virtual__/styled-normalize-virtual-ca11e90e3b/0/cache/styled-normalize-npm-8.0.7-76e7b6a203-afdb450407.zip/node_modules/styled-normalize/",
+          "packageDependencies": [
+            ["styled-normalize", "virtual:d9f8fd649a6bad2b2522c1dc82d0bf4d35a6315f955089c3bf9630d5b510fe28624bd29d391306da6bbfc3ec999e11972e7581f2b9f870eda59adaa3b0a1bc00#npm:8.0.7"],
+            ["@types/styled-components", "npm:5.1.19"],
+            ["styled-components", "virtual:d9f8fd649a6bad2b2522c1dc82d0bf4d35a6315f955089c3bf9630d5b510fe28624bd29d391306da6bbfc3ec999e11972e7581f2b9f870eda59adaa3b0a1bc00#npm:5.3.3"]
+          ],
+          "packagePeers": [
+            "@types/styled-components",
+            "styled-components"
           ],
           "linkType": "HARD",
         }]

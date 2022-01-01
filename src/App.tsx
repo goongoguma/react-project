@@ -1,8 +1,8 @@
 import React from 'react';
-import './global.css';
 import styled from 'styled-components';
 import HeaderView from '@components/header/header.view';
 import Main from './views/main';
+import Normalize from './globalStyles/Normalize';
 
 const GlobalContainer = styled.div`
   background: #141414;
@@ -25,6 +25,7 @@ const Wrapper = styled.div`
 const App = () => {
   return (
     <GlobalContainer>
+      <Normalize />
       <AppContainer>
         <HeaderView />
         <Wrapper>
