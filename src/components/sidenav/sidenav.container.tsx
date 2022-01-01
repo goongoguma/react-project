@@ -1,8 +1,14 @@
 import React from 'react';
+import judo from '@assets/images/judo.jpeg';
 import SidenavView from './sidenav.view';
 
 const SidenavContainer = () => {
-  return <SidenavView />;
+  return (
+    <div>
+      <img src={judo} alt="image" />
+      <SidenavView />
+    </div>
+  );
 };
 
 export default SidenavContainer;

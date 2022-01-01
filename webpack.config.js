@@ -1,6 +1,7 @@
 /* eslint-disable @typescript-eslint/no-var-requires */
 // eslint-disable-next-line import/no-extraneous-dependencies
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 
 const path = require('path');
 
@@ -26,8 +27,12 @@ module.exports = {
         },
       },
       {
-        test: /\.css$/,
-        use: ['style-loader', 'css-loader'],
+        test: /\.(sa|sc|c)ss$/i,
+        use: ['style-loader', 'css-loader', 'sass-loader'],
+      },
+      {
+        test: /\.(png|svg|jpg|jpeg|gif|ttf|eot)(\?v=[0-9]\.[0-9]\.[0-9])?$/,
+        type: 'asset/resource',
       },
       // fontawesome
       {
@@ -36,22 +41,18 @@ module.exports = {
           loader: 'url-loader?limit=10000&mimetype=application/font-woff',
         },
       },
-      {
-        test: /\.(png|svg|jpg|gif|ttf|eot)(\?v=[0-9]\.[0-9]\.[0-9])?$/,
-        use: {
-          loader: 'file-loader',
-        },
-      },
     ],
   },
   plugins: [
     new HtmlWebpackPlugin({
       template: 'public/index.html',
     }),
+    new MiniCssExtractPlugin(),
   ],
   resolve: {
     alias: {
       '@components': '/src/components',
+      '@assets': '/src/assets',
     },
     modules: [__dirname, 'src', 'node_modules'],
     extensions: ['*', '.js', '.jsx', '.tsx', '.ts'],

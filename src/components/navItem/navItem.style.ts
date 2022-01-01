@@ -16,7 +16,7 @@ export const NavItem = styled.li`
 export const NavItemImage = styled.div`
   width: 100px;
   height: 100px;
-  background: blueviolet;
+  background: blue;
   @media (max-width: 1024px) {
     display: none;
   }
