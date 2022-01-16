@@ -1,5 +1,9 @@
 import styled from 'styled-components';
 
+interface IStyleWrapperProps {
+  image: string;
+}
+
 export const NavItem = styled.li`
   list-style: none;
   padding: 10px;
@@ -13,10 +17,13 @@ export const NavItem = styled.li`
   }
 `;
 
-export const NavItemImage = styled.div`
+export const NavItemImage = styled.div<IStyleWrapperProps>`
   width: 100px;
   height: 100px;
-  background: blue;
+  background-image: url(${(props) => props.image || 'blue'});
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
   @media (max-width: 1024px) {
     display: none;
   }

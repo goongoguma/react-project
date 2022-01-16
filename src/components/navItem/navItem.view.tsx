@@ -1,11 +1,17 @@
 import React from 'react';
+import boxing from '@assets/images/boxing.jpeg';
+import jiujitsu from '@assets/images/jiujitsu.jpeg';
+import judo from '@assets/images/judo.jpeg';
+import taekwondo from '@assets/images/taekwondo.jpeg';
+import muaythai from '@assets/images/muaythai.jpeg';
+import kickBoxing from '@assets/images/kickBoxing.jpeg';
 import { NavItem, NavItemImage, NavItemText, NavItemTextTitle, NavItemTextDesc } from './navItem.style';
 
 const NaItemView = () => {
   return (
     <>
       <NavItem>
-        <NavItemImage />
+        <NavItemImage image={jiujitsu} />
         <NavItemText>
           <NavItemTextTitle>송도 본주짓수</NavItemTextTitle>
           <NavItemTextDesc>
@@ -17,7 +23,7 @@ const NaItemView = () => {
         </NavItemText>
       </NavItem>
       <NavItem>
-        <NavItemImage />
+        <NavItemImage image={judo} />
         <NavItemText>
           <NavItemTextTitle>와와 유도장</NavItemTextTitle>
           <NavItemTextDesc>
@@ -29,7 +35,7 @@ const NaItemView = () => {
         </NavItemText>
       </NavItem>
       <NavItem>
-        <NavItemImage />
+        <NavItemImage image={boxing} />
         <NavItemText>
           <NavItemTextTitle>연수 복싱</NavItemTextTitle>
           <NavItemTextDesc>
@@ -41,7 +47,7 @@ const NaItemView = () => {
         </NavItemText>
       </NavItem>
       <NavItem>
-        <NavItemImage />
+        <NavItemImage image={muaythai} />
         <NavItemText>
           <NavItemTextTitle>송도 무에타이</NavItemTextTitle>
           <NavItemTextDesc>
@@ -53,7 +59,7 @@ const NaItemView = () => {
         </NavItemText>
       </NavItem>
       <NavItem>
-        <NavItemImage />
+        <NavItemImage image={kickBoxing} />
         <NavItemText>
           <NavItemTextTitle>챔피언 킥복싱</NavItemTextTitle>
           <NavItemTextDesc>
@@ -65,13 +71,13 @@ const NaItemView = () => {
         </NavItemText>
       </NavItem>
       <NavItem>
-        <NavItemImage />
+        <NavItemImage image={taekwondo} />
         <NavItemText>
-          <NavItemTextTitle>홍수환 복싱 클럽</NavItemTextTitle>
+          <NavItemTextTitle>용인 태권도 클럽</NavItemTextTitle>
           <NavItemTextDesc>
             <li> - 운영시간: 11:00 ~ 23:00</li>
             <li>- 위치: 선학 1동</li>
-            <li>- 관장: 안oo 관장님</li>
+            <li>- 관장: 김oo 관장님</li>
             <li>- 매주 일요일 휴무</li>
           </NavItemTextDesc>
         </NavItemText>
