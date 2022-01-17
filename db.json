@@ -1,0 +1,58 @@
+{
+  "gym": [
+    {
+      "id": 1,
+      "title": "송도 본주짓수",
+      "startTime": "09:00",
+      "endTime": "20:00",
+      "location": "만수3지구",
+      "owner": "김oo 관장님",
+      "closeDate": "매주 토/일 및 공휴일 휴무"
+    },
+    {
+      "id": 2,
+      "title": "와와 유도장",
+      "startTime": "11:00",
+      "endTime": "18:00",
+      "location": "연수2동",
+      "owner": "박oo",
+      "closeDate": "매주 토/일 및 공휴일 운영"
+    },
+    {
+      "id": 3,
+      "title": "연수 복싱",
+      "startTime": "07:00",
+      "endTime": "22:00",
+      "location": "연수6동",
+      "owner": "최oo",
+      "closeDate": "휴무 없음"
+    },
+    {
+      "id": 4,
+      "title": "송도 무에타이",
+      "startTime": "10:00",
+      "endTime": "18:00",
+      "location": "도림2동",
+      "owner": "박oo",
+      "closeDate": "매주 토/일 휴무"
+    },
+    {
+      "id": 5,
+      "title": "챔피언 킥복싱",
+      "startTime": "09:00",
+      "endTime": "22:00",
+      "location": "송도3동",
+      "owner": "고oo",
+      "closeDate": "휴무 없음"
+    },
+    {
+      "id": 6,
+      "title": "용인 태권도 클럽",
+      "startTime": "11:00",
+      "endTime": "23:00",
+      "location": "선학1동",
+      "owner": "김oo",
+      "closeDate": "매주 일요일 휴무"
+    }
+  ]
+}

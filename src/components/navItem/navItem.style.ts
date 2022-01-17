@@ -10,10 +10,12 @@ export const NavItem = styled.li`
   background: blanchedalmond;
   display: flex;
   align-items: center;
+  cursor: pointer;
   @media (max-width: 1024px) {
     display: block;
     min-width: 200px;
     border: 1px solid black;
+    cursor: pointer;
   }
 `;
 

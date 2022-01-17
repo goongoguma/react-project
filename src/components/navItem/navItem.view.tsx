@@ -8,9 +8,12 @@ import kickBoxing from '@assets/images/kickBoxing.jpeg';
 import { NavItem, NavItemImage, NavItemText, NavItemTextTitle, NavItemTextDesc } from './navItem.style';
 
 const NaItemView = () => {
+  const handleLocation = () => {
+    console.log('clicked');
+  };
   return (
     <>
-      <NavItem>
+      <NavItem onClick={handleLocation}>
         <NavItemImage image={jiujitsu} />
         <NavItemText>
           <NavItemTextTitle>송도 본주짓수</NavItemTextTitle>
@@ -40,7 +43,7 @@ const NaItemView = () => {
           <NavItemTextTitle>연수 복싱</NavItemTextTitle>
           <NavItemTextDesc>
             <li> - 운영시간: 07:00 ~ 22:00</li>
-            <li>- 위치: 연수 6동</li>
+            <li>- 위치: 연수6동</li>
             <li>- 관장: 최oo 관장님</li>
             <li>- 휴무 없음</li>
           </NavItemTextDesc>
