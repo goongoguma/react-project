@@ -1,8 +1,9 @@
 import React from 'react';
 import styled from 'styled-components';
 import HeaderView from '@components/header/header.view';
-import Main from './views/main';
+import { QueryClient, QueryClientProvider } from 'react-query';
 import Normalize from './globalStyles/Normalize';
+import View from './View';
 
 const GlobalContainer = styled.div`
   background: #141414;
@@ -22,16 +23,20 @@ const Wrapper = styled.div`
   background: pink;
 `;
 
+const queryClient = new QueryClient();
+
 const App = () => {
   return (
     <GlobalContainer>
       <Normalize />
-      <AppContainer>
-        <HeaderView />
-        <Wrapper>
-          <Main />
-        </Wrapper>
-      </AppContainer>
+      <QueryClientProvider client={queryClient}>
+        <AppContainer>
+          <HeaderView />
+          <Wrapper>
+            <View />
+          </Wrapper>
+        </AppContainer>
+      </QueryClientProvider>
     </GlobalContainer>
   );
 };
