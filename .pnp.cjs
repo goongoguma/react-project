@@ -71,6 +71,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["react-dom", "virtual:d9f8fd649a6bad2b2522c1dc82d0bf4d35a6315f955089c3bf9630d5b510fe28624bd29d391306da6bbfc3ec999e11972e7581f2b9f870eda59adaa3b0a1bc00#npm:17.0.2"],
             ["react-is", "npm:17.0.2"],
             ["react-query", "virtual:d9f8fd649a6bad2b2522c1dc82d0bf4d35a6315f955089c3bf9630d5b510fe28624bd29d391306da6bbfc3ec999e11972e7581f2b9f870eda59adaa3b0a1bc00#npm:3.34.8"],
+            ["react-router", "virtual:d9f8fd649a6bad2b2522c1dc82d0bf4d35a6315f955089c3bf9630d5b510fe28624bd29d391306da6bbfc3ec999e11972e7581f2b9f870eda59adaa3b0a1bc00#npm:6.2.1"],
             ["react-router-dom", "virtual:d9f8fd649a6bad2b2522c1dc82d0bf4d35a6315f955089c3bf9630d5b510fe28624bd29d391306da6bbfc3ec999e11972e7581f2b9f870eda59adaa3b0a1bc00#npm:6.2.1"],
             ["sass", "npm:1.45.2"],
             ["sass-loader", "virtual:d9f8fd649a6bad2b2522c1dc82d0bf4d35a6315f955089c3bf9630d5b510fe28624bd29d391306da6bbfc3ec999e11972e7581f2b9f870eda59adaa3b0a1bc00#npm:12.4.0"],
@@ -8631,6 +8632,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["react-dom", "virtual:d9f8fd649a6bad2b2522c1dc82d0bf4d35a6315f955089c3bf9630d5b510fe28624bd29d391306da6bbfc3ec999e11972e7581f2b9f870eda59adaa3b0a1bc00#npm:17.0.2"],
             ["react-is", "npm:17.0.2"],
             ["react-query", "virtual:d9f8fd649a6bad2b2522c1dc82d0bf4d35a6315f955089c3bf9630d5b510fe28624bd29d391306da6bbfc3ec999e11972e7581f2b9f870eda59adaa3b0a1bc00#npm:3.34.8"],
+            ["react-router", "virtual:d9f8fd649a6bad2b2522c1dc82d0bf4d35a6315f955089c3bf9630d5b510fe28624bd29d391306da6bbfc3ec999e11972e7581f2b9f870eda59adaa3b0a1bc00#npm:6.2.1"],
             ["react-router-dom", "virtual:d9f8fd649a6bad2b2522c1dc82d0bf4d35a6315f955089c3bf9630d5b510fe28624bd29d391306da6bbfc3ec999e11972e7581f2b9f870eda59adaa3b0a1bc00#npm:6.2.1"],
             ["sass", "npm:1.45.2"],
             ["sass-loader", "virtual:d9f8fd649a6bad2b2522c1dc82d0bf4d35a6315f955089c3bf9630d5b510fe28624bd29d391306da6bbfc3ec999e11972e7581f2b9f870eda59adaa3b0a1bc00#npm:12.4.0"],
@@ -9824,10 +9826,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],
           "linkType": "SOFT",
         }],
-        ["virtual:fd4a0d2450c3b01cc62f811523df11b7c174b4f6b915e2b2b30ca78765f09b648bc0a718c6648d2ebd9c0439c0b5d04c711786801bf04136cfdffbecdb3e6bf0#npm:6.2.1", {
-          "packageLocation": "./.yarn/__virtual__/react-router-virtual-84475df80c/0/cache/react-router-npm-6.2.1-b3ded752fc-081a89237a.zip/node_modules/react-router/",
+        ["virtual:d9f8fd649a6bad2b2522c1dc82d0bf4d35a6315f955089c3bf9630d5b510fe28624bd29d391306da6bbfc3ec999e11972e7581f2b9f870eda59adaa3b0a1bc00#npm:6.2.1", {
+          "packageLocation": "./.yarn/__virtual__/react-router-virtual-5c11cd0e28/0/cache/react-router-npm-6.2.1-b3ded752fc-081a89237a.zip/node_modules/react-router/",
           "packageDependencies": [
-            ["react-router", "virtual:fd4a0d2450c3b01cc62f811523df11b7c174b4f6b915e2b2b30ca78765f09b648bc0a718c6648d2ebd9c0439c0b5d04c711786801bf04136cfdffbecdb3e6bf0#npm:6.2.1"],
+            ["react-router", "virtual:d9f8fd649a6bad2b2522c1dc82d0bf4d35a6315f955089c3bf9630d5b510fe28624bd29d391306da6bbfc3ec999e11972e7581f2b9f870eda59adaa3b0a1bc00#npm:6.2.1"],
             ["@types/react", "npm:17.0.38"],
             ["history", "npm:5.2.0"],
             ["react", "npm:17.0.2"]
@@ -9856,7 +9858,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["history", "npm:5.2.0"],
             ["react", "npm:17.0.2"],
             ["react-dom", "virtual:d9f8fd649a6bad2b2522c1dc82d0bf4d35a6315f955089c3bf9630d5b510fe28624bd29d391306da6bbfc3ec999e11972e7581f2b9f870eda59adaa3b0a1bc00#npm:17.0.2"],
-            ["react-router", "virtual:fd4a0d2450c3b01cc62f811523df11b7c174b4f6b915e2b2b30ca78765f09b648bc0a718c6648d2ebd9c0439c0b5d04c711786801bf04136cfdffbecdb3e6bf0#npm:6.2.1"]
+            ["react-router", "virtual:d9f8fd649a6bad2b2522c1dc82d0bf4d35a6315f955089c3bf9630d5b510fe28624bd29d391306da6bbfc3ec999e11972e7581f2b9f870eda59adaa3b0a1bc00#npm:6.2.1"]
           ],
           "packagePeers": [
             "@types/react-dom",

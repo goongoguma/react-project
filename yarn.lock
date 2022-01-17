@@ -6495,6 +6495,7 @@ __metadata:
     react-dom: ^17.0.2
     react-is: ^17.0.2
     react-query: ^3.34.8
+    react-router: ^6.2.1
     react-router-dom: ^6.0.2
     sass: ^1.45.2
     sass-loader: ^12.4.0
@@ -7478,7 +7479,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-router@npm:6.2.1":
+"react-router@npm:6.2.1, react-router@npm:^6.2.1":
   version: 6.2.1
   resolution: "react-router@npm:6.2.1"
   dependencies:
