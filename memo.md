@@ -2,7 +2,7 @@
 
 2. 에러 Error: Cannot find module 'html-webpack-plugin' 발생 -> npm install -D html-webpack-plugin으로 설치
 
-3. 에러 발생
+3. 에러 발생 
 
 ```js
 configuration
